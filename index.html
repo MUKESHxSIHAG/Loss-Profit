@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let selling = parseInt(prompt("Enter Your Selling Price"));
+        let purchase = parseInt(prompt("Enter Your Purchase Price"));
+        let profit = selling - purchase;
+        let loss = Math.abs(selling - purchase);
+        if (selling > purchase) {
+            alert(`You Got A Profit Of Ruppees ${profit}`);
+        }
+        else {
+            alert(`You got a loss of Ruppess ${loss}`);
+        }
+
+
+    </script>
+</body>
+
+</html>
